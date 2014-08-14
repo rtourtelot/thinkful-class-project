@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9DADEBF2199C16D0009946D1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADEBF1199C16D0009946D1 /* main.swift */; };
 		9DADEBF9199C16EA009946D1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADEBF8199C16EA009946D1 /* Car.swift */; };
+		9DADEBFB199C49DF009946D1 /* TurboCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADEBFA199C49DF009946D1 /* TurboCar.swift */; };
+		9DADEBFD199C4A7A009946D1 /* HybridCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADEBFC199C4A7A009946D1 /* HybridCar.swift */; };
+		9DADEBFF199C4AE7009946D1 /* PickupTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADEBFE199C4AE7009946D1 /* PickupTruck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		9DADEBEE199C16D0009946D1 /* Unit2Lesson3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Unit2Lesson3; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DADEBF1199C16D0009946D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9DADEBF8199C16EA009946D1 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9DADEBFA199C49DF009946D1 /* TurboCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurboCar.swift; sourceTree = "<group>"; };
+		9DADEBFC199C4A7A009946D1 /* HybridCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridCar.swift; sourceTree = "<group>"; };
+		9DADEBFE199C4AE7009946D1 /* PickupTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupTruck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				9DADEBF1199C16D0009946D1 /* main.swift */,
+				9DADEBFE199C4AE7009946D1 /* PickupTruck.swift */,
+				9DADEBFC199C4A7A009946D1 /* HybridCar.swift */,
 				9DADEBF8199C16EA009946D1 /* Car.swift */,
+				9DADEBFA199C49DF009946D1 /* TurboCar.swift */,
 			);
 			path = Unit2Lesson3;
 			sourceTree = "<group>";
@@ -123,6 +132,9 @@
 			files = (
 				9DADEBF9199C16EA009946D1 /* Car.swift in Sources */,
 				9DADEBF2199C16D0009946D1 /* main.swift in Sources */,
+				9DADEBFF199C4AE7009946D1 /* PickupTruck.swift in Sources */,
+				9DADEBFD199C4A7A009946D1 /* HybridCar.swift in Sources */,
+				9DADEBFB199C49DF009946D1 /* TurboCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
