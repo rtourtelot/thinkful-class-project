@@ -12,12 +12,41 @@
 		9D1539E619AAA0D7008D234C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1539E419AAA0D7008D234C /* Main.storyboard */; };
 		9D1539E819AAA0D7008D234C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1539E719AAA0D7008D234C /* Images.xcassets */; };
 		9D1539F419AAA0D7008D234C /* Contacts_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1539F319AAA0D7008D234C /* Contacts_2Tests.swift */; };
-		9D1539FE19AB7298008D234C /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1539FD19AB7298008D234C /* apple.png */; };
 		9D153A0219AB7B01008D234C /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D153A0119AB7B01008D234C /* Contacts.swift */; };
+		9D153A0419AB8041008D234C /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D153A0319AB8041008D234C /* ContactDetails.swift */; };
+		9DA1637E19B8F5C700C11D23 /* ContactInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1637D19B8F5C700C11D23 /* ContactInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		9D1539EE19AAA0D7008D234C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D1539D319AAA0D7008D234C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1539DA19AAA0D7008D234C;
+			remoteInfo = "Contacts-2";
+		};
+		9D206D2419B4AAA100DEE419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D1539D319AAA0D7008D234C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1539DA19AAA0D7008D234C;
+			remoteInfo = "Contacts-2";
+		};
+		9D206D2619B4AAA200DEE419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D1539D319AAA0D7008D234C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1539DA19AAA0D7008D234C;
+			remoteInfo = "Contacts-2";
+		};
+		9DF7B34419B40D1B00B02CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D1539D319AAA0D7008D234C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1539DA19AAA0D7008D234C;
+			remoteInfo = "Contacts-2";
+		};
+		9DF7B34619B40D1B00B02CA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9D1539D319AAA0D7008D234C /* Project object */;
 			proxyType = 1;
@@ -36,8 +65,9 @@
 		9D1539ED19AAA0D7008D234C /* Contacts-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contacts-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1539F219AAA0D7008D234C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D1539F319AAA0D7008D234C /* Contacts_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts_2Tests.swift; sourceTree = "<group>"; };
-		9D1539FD19AB7298008D234C /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ../../../Desktop/apple.png; sourceTree = "<group>"; };
 		9D153A0119AB7B01008D234C /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contacts.swift; path = ../Contacts.swift; sourceTree = "<group>"; };
+		9D153A0319AB8041008D234C /* ContactDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		9DA1637D19B8F5C700C11D23 /* ContactInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +113,8 @@
 				9D1539E019AAA0D7008D234C /* AppDelegate.swift */,
 				9D1539E219AAA0D7008D234C /* ViewController.swift */,
 				9D1539E419AAA0D7008D234C /* Main.storyboard */,
-				9D1539FD19AB7298008D234C /* apple.png */,
+				9DA1637D19B8F5C700C11D23 /* ContactInput.swift */,
+				9D153A0319AB8041008D234C /* ContactDetails.swift */,
 				9D1539E719AAA0D7008D234C /* Images.xcassets */,
 				9D1539DE19AAA0D7008D234C /* Supporting Files */,
 			);
@@ -147,6 +178,10 @@
 			);
 			dependencies = (
 				9D1539EF19AAA0D7008D234C /* PBXTargetDependency */,
+				9DF7B34519B40D1B00B02CA9 /* PBXTargetDependency */,
+				9DF7B34719B40D1B00B02CA9 /* PBXTargetDependency */,
+				9D206D2519B4AAA100DEE419 /* PBXTargetDependency */,
+				9D206D2719B4AAA200DEE419 /* PBXTargetDependency */,
 			);
 			name = "Contacts-2Tests";
 			productName = "Contacts-2Tests";
@@ -196,7 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D1539E619AAA0D7008D234C /* Main.storyboard in Resources */,
-				9D1539FE19AB7298008D234C /* apple.png in Resources */,
 				9D1539E819AAA0D7008D234C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D1539E319AAA0D7008D234C /* ViewController.swift in Sources */,
+				9D153A0419AB8041008D234C /* ContactDetails.swift in Sources */,
+				9DA1637E19B8F5C700C11D23 /* ContactInput.swift in Sources */,
 				9D1539E119AAA0D7008D234C /* AppDelegate.swift in Sources */,
 				9D153A0219AB7B01008D234C /* Contacts.swift in Sources */,
 			);
@@ -236,6 +272,26 @@
 			isa = PBXTargetDependency;
 			target = 9D1539DA19AAA0D7008D234C /* Contacts-2 */;
 			targetProxy = 9D1539EE19AAA0D7008D234C /* PBXContainerItemProxy */;
+		};
+		9D206D2519B4AAA100DEE419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1539DA19AAA0D7008D234C /* Contacts-2 */;
+			targetProxy = 9D206D2419B4AAA100DEE419 /* PBXContainerItemProxy */;
+		};
+		9D206D2719B4AAA200DEE419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1539DA19AAA0D7008D234C /* Contacts-2 */;
+			targetProxy = 9D206D2619B4AAA200DEE419 /* PBXContainerItemProxy */;
+		};
+		9DF7B34519B40D1B00B02CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1539DA19AAA0D7008D234C /* Contacts-2 */;
+			targetProxy = 9DF7B34419B40D1B00B02CA9 /* PBXContainerItemProxy */;
+		};
+		9DF7B34719B40D1B00B02CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1539DA19AAA0D7008D234C /* Contacts-2 */;
+			targetProxy = 9DF7B34619B40D1B00B02CA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -403,6 +459,7 @@
 				9D1539F919AAA0D7008D234C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D1539FA19AAA0D7008D234C /* Build configuration list for PBXNativeTarget "Contacts-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +468,7 @@
 				9D1539FC19AAA0D7008D234C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
